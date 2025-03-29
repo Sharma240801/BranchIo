@@ -10,15 +10,16 @@ const Home = () => {
     });
   }, []);
 
-  console.log('fadfjlk')
+  
   const signIn = async () => {
     try {
       await GoogleSignin.hasPlayServices();
       const userInfo = await GoogleSignin.signIn();
       
       if(userInfo){
-        console.log("User Info:", userInfo);
-        Alert.alert("Signed in!", userInfo);
+        console.log("User Info:", JSON.stringify(userInfo));
+        Alert.alert("Signed in!", JSON.stringify(userInfo, null, 2));
+
       }
       
     } catch (error) {
