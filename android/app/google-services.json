@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "522477386283",
+    "project_id": "branchio-adbed",
+    "storage_bucket": "branchio-adbed.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522477386283:android:048606986f78b7192b886e",
+        "android_client_info": {
+          "package_name": "com.branchio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2uNd0UxHdRDL_6BHvRezr9lOsnuozopA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
